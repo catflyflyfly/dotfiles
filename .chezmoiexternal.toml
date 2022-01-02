@@ -1,0 +1,6 @@
+[".zprezto-contrib/zsh-cargo-completion"]
+    type = "archive"
+    url = "https://github.com/MenkeTechnologies/zsh-cargo-completion" 
+    exact = true
+    stripComponents = 1
+    refreshPeriod = "168h"
