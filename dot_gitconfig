@@ -1,6 +1,7 @@
 [user]
     email = c.catfly@gmail.com
-    name = catfly-tawan-w
+    name = Tawan 'catflyflyfly' Wattana
+	signingkey = A6A51E93AFD5F5CC008F9FB282E9839BF964B386
 [core]
     editor = lvim
     whitespace = tab-in-indent,trailing-space,cr-at-eol
