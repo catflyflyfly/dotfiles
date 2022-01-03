@@ -17,7 +17,6 @@ cask "vlc"
 
 cask "notion"
 
-cask "cleanmymac"
 cask "omnidisksweeper"
 
 # Cloud Storage
@@ -57,10 +56,8 @@ brew "hr"
 brew "terminal-notifier"
 brew "direnv"
 brew "jq"
-cask "bwana"
 
 brew "tmux"
-brew "tmuxinator"
 
 brew "lftp"
 
@@ -110,7 +107,6 @@ cask "postman"
 ## Development: Database
 
 brew "postgresql", restart_service: true
-brew "postgresql@9.6", restart_service: true
 cask "tableplus"
 cask "pgadmin4"
 
@@ -118,11 +114,9 @@ cask "pgadmin4"
 
 cask "docker"
 brew "helm"
-brew "minikube"
 
 ## Development: CI/CD
 
-brew "jenkins"
 brew "fastlane"
 
 ## Development: Cloud Platform
