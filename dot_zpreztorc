@@ -46,6 +46,8 @@ zstyle ':prezto:load' pmodule \
   'autosuggestions' \
   'prompt' \
   'fasd' \
+  'enhancd' \
+  'fzy' \
   'docker' \
   'homebrew' \
   'tmux' \

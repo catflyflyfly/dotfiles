@@ -29,7 +29,3 @@ alias cat=bat
 alias -g G="| grep -i"
 alias -g H="| head"
 alias -g T="| tail"
-
-export PATH=$HOME/bin:$PATH
-export PATH=$HOME/.local/bin:$PATH
-
