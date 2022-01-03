@@ -1,17 +1,16 @@
 [user]
     email = c.catfly@gmail.com
     name = catfly-tawan-w
-
 [core]
     editor = lvim
     whitespace = tab-in-indent,trailing-space,cr-at-eol
     pager = less
     excludesfile = /Users/catfly/.gitignore_global
 [pull]
-	rebase = false
+    rebase = false
 [credential]
-	helper = osxkeychain
+    helper = osxkeychain
 [fetch]
-	prune = true
+    prune = true
 [init]
-	defaultBranch = main
+    defaultBranch = main
