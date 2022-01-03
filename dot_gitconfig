@@ -1,17 +1,19 @@
 [user]
-    email = c.catfly@gmail.com
-    name = Tawan 'catflyflyfly' Wattana
+	email = c.catfly@gmail.com
+	name = Tawan 'catflyflyfly' Wattana
 	signingkey = A6A51E93AFD5F5CC008F9FB282E9839BF964B386
 [core]
-    editor = lvim
-    whitespace = tab-in-indent,trailing-space,cr-at-eol
-    pager = less
-    excludesfile = /Users/catfly/.gitignore_global
+	editor = lvim
+	whitespace = tab-in-indent,trailing-space,cr-at-eol
+	pager = less
+	excludesfile = /Users/catfly/.gitignore_global
 [pull]
-    rebase = false
+	rebase = false
 [credential]
-    helper = osxkeychain
+	helper = osxkeychain
 [fetch]
-    prune = true
+	prune = true
 [init]
-    defaultBranch = main
+	defaultBranch = main
+[includeIf "gitdir:~/ava"]
+	path = ~/.gitconfig-ava
